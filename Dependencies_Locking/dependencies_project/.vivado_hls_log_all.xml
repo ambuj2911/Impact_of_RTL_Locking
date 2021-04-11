@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dp_key_r' is power-on initialization." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:04:17.781+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Function contains subloop(s) not being unrolled." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:04:06.821+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('data_0_load_2', sha256_impl.c:87) on array 'data_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'data_0'." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:04:02.951+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'sha256/dp_key' to 'sha256/dp_key_r' to avoid the conflict with HDL keywords or other object names." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:55.481+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-2' (sha256_impl.c:206) in function 'sha256_final' completely: variable loop bound." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.101+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1' (sha256_impl.c:198) in function 'sha256_final' completely: variable loop bound." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.091+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 12 to 32 for loop 'Loop-1' (sha256.c:61:1) in function 'sha256'." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.086+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 40 to 32 for loop 'Loop-1' (sha256.c:61:1) in function 'sha256'." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.076+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 100 to 63 for loop 'Loop-0-1' (sha256.c:50:1) in function 'sha256'." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.061+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-3' (sha256_impl.c:102) because its parent loop or function is pipelined." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.051+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-2' (sha256_impl.c:89) because its parent loop or function is pipelined." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.041+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-4' (sha256_impl.c:232) because its parent loop or function is pipelined." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.031+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'Loop-3' (sha256_impl.c:211) because its parent loop or function is pipelined." projectName="dependencies_project" solutionName="solution1" date="2021-04-10T17:03:52.031+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

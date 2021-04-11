@@ -1,0 +1,1179 @@
+INFO-FLOW: Workspace H:/ASSHU/branch/branch_project/solution1 opened at Sat Apr 10 16:50:40 +0530 2021
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.lib 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.lib 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.lib 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.lib 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.lib 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.lib 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.lib 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.lib 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.lib 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute     source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.102 sec.
+Command     ap_source done; 0.103 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.lib 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute     source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+Execute     set_part xc7z020-clg484-1 
+Execute       ap_part_info -name xc7z020-clg484-1 -data single -quiet 
+Command       ap_part_info done; 0.383 sec.
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       add_library xilinx/zynq/zynq:xc7z020:-clg484:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         ap_part_info -data single -name xc7z020-clg484-1 
+Execute         ap_part_info -name xc7z020-clg484-1 -data resources 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+Execute         config_chip_info -quiet -resource {SLICE 13300} {LUT 53200} {FF 106400} {DSP48E 220} {BRAM 280} {URAM 0} 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.lib 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute               source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute               source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       get_default_platform 
+Command     set_part done; 0.466 sec.
+Execute     ap_part_info -data single -name xc7z020-clg484-1 
+Execute     ap_part_info -name xc7z020-clg484-1 -data resources 
+Execute     ap_part_info -name xc7z020-clg484-1 -data info 
+Execute     ap_part_info -name xc7z020-clg484-1 -data info 
+Execute     config_chip_info -quiet -resource {SLICE 13300} {LUT 53200} {FF 106400} {DSP48E 220} {BRAM 280} {URAM 0} 
+Execute     ap_part_info -name xc7z020-clg484-1 -data info 
+Execute     config_chip_info -quiet -speed slow 
+Command   open_solution done; 0.61 sec.
+Execute   set_part xc7z020clg484-1 -tool vivado 
+Execute     ap_part_info -name xc7z020clg484-1 -data single -quiet 
+Execute     ap_part_info -name xc7z020clg484-1 -data info 
+Execute     add_library xilinx/zynq/zynq:xc7z020:-clg484:-1 
+Execute       get_default_platform 
+Execute       license_isbetapart xc7z020 
+Command       license_isbetapart done; error code: 1; 
+Execute       ap_part_info -data single -name xc7z020-clg484-1 
+Execute       ap_part_info -name xc7z020-clg484-1 -data resources 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       config_chip_info -quiet -resource {SLICE 13300} {LUT 53200} {FF 106400} {DSP48E 220} {BRAM 280} {URAM 0} 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       config_chip_info -quiet -speed slow 
+Execute     add_library xilinx/zynq/zynq_fpv6 
+Execute       get_default_platform 
+Execute       open_platform DefaultPlatform 
+Execute       import_lib C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.lib 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute               source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+Execute     ap_part_info -name xc7z020-clg484-1 -data info 
+Execute     get_default_platform 
+Execute   create_clock -period 10 -name default 
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   csynth_design 
+Execute     get_config_compile -dump_cfg 
+Execute     get_config_compile -effort 
+Execute     get_config_compile -enable_clang39 
+Execute     get_config_compile -g 
+Execute     get_config_compile -ng 
+Execute     get_config_compile -opt_fp 
+Execute     get_config_compile -skip_cdt 
+Execute     get_config_compile -skip_syncheck 
+Execute     get_config_compile -skip_transform 
+Execute     get_config_compile -keep_printf 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute       get_config_schedule -relax_ii_for_timing 
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+Execute       get_config_schedule -suppress_dependence_error_break 
+INFO: [HLS 200-10] Analyzing design file 'sha256_impl_tb.c' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling sha256_impl_tb.c as C
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       is_encrypted sha256_impl_tb.c 
+INFO-FLOW: Running: GCC PP
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2019.1/msys" -hls  -fno-exceptions  -D__llvm__  -E "sha256_impl_tb.c"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl=  -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -fno-exceptions -D__llvm__ -E sha256_impl_tb.c -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl= -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c
+Command       clang done; 0.874 sec.
+Execute       tidy_31 xilinx-xfmat-array-geometry H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c std=gnu89 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+Command       tidy_31 done; 0.131 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute       clang -syntaxcheck -src H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2019.1/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl=  "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c"  -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl= H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/useless.bc
+Command       clang done; 0.88 sec.
+INFO-FLOW: Done: GCC PP time: 1.9 seconds per iteration
+Execute       source C:/Xilinx/Vivado/2019.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source C:/Xilinx/Vivado/2019.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute         source C:/Xilinx/Vivado/2019.1/tps/tcl/tcllib1.11.1/try/try.tcl 
+Execute       list_core -type functional_unit 
+Execute       tidy_31 xilinx-systemc-detector H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c std=gnu89 -directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+INFO-FLOW: Running: tidy-3.1 CDT preprocess
+Execute       tidy_31 xilinx-directive2pragma H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c std=gnu89 -directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-directive2pragma -import-directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/all.directive.json -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256_impl_tb.pp.0.c.diag.yml H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -- -std=gnu99 -fhls -ferror-limit=0 -fstrict-dataflow > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256_impl_tb.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256_impl_tb.pp.0.c.err.log 
+Command       ap_eval done; 0.152 sec.
+Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c std=gnu89 
+Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -export-fixes=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256_impl_tb.pp.0.c.diag.yml -header-filter=.* -checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0 > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256_impl_tb.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256_impl_tb.pp.0.c.err.log 
+Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0 > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-legacy-rewriter.sha256_impl_tb.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-legacy-rewriter.sha256_impl_tb.pp.0.c.err.log 
+Command         ap_eval done; 0.149 sec.
+Command       tidy_31 done; 0.191 sec.
+INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 0.4 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute       tidy_31 xilinx-ssdm-intrinsics-arguments H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pragma.1.c std=gnu89 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pragma.1.c -- -std=gnu89 -fhls -ferror-limit=0
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: Processing labels
+Execute       clang -src H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pragma.2.c  -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pragma.2.c"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89  -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.bc" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.pragma.2.c -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.bc
+Command       clang done; 0.877 sec.
+INFO: [HLS 200-10] Analyzing design file 'sha256_impl.c' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling sha256_impl.c as C
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       is_encrypted sha256_impl.c 
+INFO-FLOW: Running: GCC PP
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2019.1/msys" -hls  -fno-exceptions  -D__llvm__  -E "sha256_impl.c"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl=  -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -fno-exceptions -D__llvm__ -E sha256_impl.c -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl= -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c
+Command       clang done; 0.88 sec.
+Execute       tidy_31 xilinx-xfmat-array-geometry H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c std=gnu89 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute       clang -syntaxcheck -src H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2019.1/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl=  "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c"  -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl= H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/useless.bc
+Command       clang done; 0.874 sec.
+INFO-FLOW: Done: GCC PP time: 1.8 seconds per iteration
+Execute       list_core -type functional_unit 
+Execute       tidy_31 xilinx-systemc-detector H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c std=gnu89 -directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+INFO-FLOW: Running: tidy-3.1 CDT preprocess
+Execute       tidy_31 xilinx-directive2pragma H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c std=gnu89 -directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-directive2pragma -import-directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/all.directive.json -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256_impl.pp.0.c.diag.yml H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -- -std=gnu99 -fhls -ferror-limit=0 -fstrict-dataflow > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256_impl.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256_impl.pp.0.c.err.log 
+Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c std=gnu89 
+Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -export-fixes=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256_impl.pp.0.c.diag.yml -header-filter=.* -checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0 > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256_impl.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256_impl.pp.0.c.err.log 
+Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0 > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-legacy-rewriter.sha256_impl.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-legacy-rewriter.sha256_impl.pp.0.c.err.log 
+INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 0.1 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute       tidy_31 xilinx-ssdm-intrinsics-arguments H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pragma.1.c std=gnu89 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pragma.1.c -- -std=gnu89 -fhls -ferror-limit=0
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: Processing labels
+Execute       clang -src H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pragma.2.c  -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pragma.2.c"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89  -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.bc" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.pragma.2.c -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.bc
+Command       clang done; 0.876 sec.
+INFO: [HLS 200-10] Analyzing design file 'sha256.c' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling sha256.c as C
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       is_encrypted sha256.c 
+INFO-FLOW: Running: GCC PP
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2019.1/msys" -hls  -fno-exceptions  -D__llvm__  -E "sha256.c"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl=  -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -fno-exceptions -D__llvm__ -E sha256.c -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl= -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c
+Command       clang done; 0.879 sec.
+Execute       tidy_31 xilinx-xfmat-array-geometry H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c std=gnu89 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute       clang -syntaxcheck -src H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2019.1/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl=  "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c"  -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -D__cdecl= H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/useless.bc
+Command       clang done; 0.872 sec.
+INFO-FLOW: Done: GCC PP time: 1.8 seconds per iteration
+Execute       list_core -type functional_unit 
+Execute       tidy_31 xilinx-systemc-detector H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c std=gnu89 -directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+INFO-FLOW: Running: tidy-3.1 CDT preprocess
+Execute       tidy_31 xilinx-directive2pragma H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c std=gnu89 -directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-directive2pragma -import-directive=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/all.directive.json -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256.pp.0.c.diag.yml H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -- -std=gnu99 -fhls -ferror-limit=0 -fstrict-dataflow > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-dataflow-lawyer.sha256.pp.0.c.err.log 
+Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c std=gnu89 
+Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -export-fixes=H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256.pp.0.c.diag.yml -header-filter=.* -checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0 > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/tidy-3.1.sha256.pp.0.c.err.log 
+Execute         source C:/Xilinx/Vivado/2019.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Execute           source C:/Xilinx/Vivado/2019.1/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl 
+Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pp.0.c -- -std=gnu89 -fhls -ferror-limit=0 > H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-legacy-rewriter.sha256.pp.0.c.out.log 2> H:/ASSHU/branch/branch_project/solution1/.autopilot/db/xilinx-legacy-rewriter.sha256.pp.0.c.err.log 
+Command       tidy_31 done; 0.195 sec.
+INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 0.3 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute       tidy_31 xilinx-ssdm-intrinsics-arguments H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pragma.1.c std=gnu89 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pragma.1.c -- -std=gnu89 -fhls -ferror-limit=0
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: Processing labels
+Execute       clang -src H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pragma.2.c  -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pragma.2.c"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89  -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.bc" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2019.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.pragma.2.c -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot -I C:/Xilinx/Vivado/2019.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.bc
+Command       clang done; 0.877 sec.
+INFO-FLOW: Linking Debug ...
+Execute       llvm-ld H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl_tb.g.bc H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_impl.g.bc H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.g.bc -hls-opt -except-internalize sha256 -LC:/Xilinx/Vivado/2019.1/win64/lib -lhlsm -lhlsmc++ -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g 
+Command       llvm-ld done; 5.502 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 175.078 ; gain = 84.273
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 175.078 ; gain = 84.273
+Execute       get_config_sdx -target 
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+Execute         transform -promote-dbg-pointer H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.pp.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.pp.0.bc -f 
+Command         transform done; 0.266 sec.
+Execute         llvm-ld H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.pp.0.bc -disable-opt -LC:/Xilinx/Vivado/2019.1/win64/lib -lfloatconversion -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.0 
+Command         llvm-ld done; 0.979 sec.
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top sha256 -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.0.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [XFORM 203-603] Inlining function 'sha256_init' into 'sha256' (sha256.c:33).
+Command         transform done; 0.152 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 175.078 ; gain = 84.273
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.1.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'SIG1' (sha256_impl.c:73) automatically.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'SIG0' (sha256_impl.c:69) automatically.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'EP1' (sha256_impl.c:65) automatically.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'EP0' (sha256_impl.c:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'SIG1' into 'sha256_transform' (sha256_impl.c:86) automatically.
+INFO: [XFORM 203-602] Inlining function 'SIG0' into 'sha256_transform' (sha256_impl.c:86) automatically.
+INFO: [XFORM 203-602] Inlining function 'EP1' into 'sha256_transform' (sha256_impl.c:99) automatically.
+INFO: [XFORM 203-602] Inlining function 'CH' into 'sha256_transform' (sha256_impl.c:99) automatically.
+INFO: [XFORM 203-602] Inlining function 'EP0' into 'sha256_transform' (sha256_impl.c:100) automatically.
+INFO: [XFORM 203-602] Inlining function 'MAJ' into 'sha256_transform' (sha256_impl.c:100) automatically.
+INFO: [XFORM 203-602] Inlining function 'DBL_INT_ADD' into 'sha256_update' (sha256_impl.c:152) automatically.
+INFO: [XFORM 203-602] Inlining function 'DBL_INT_ADD' into 'sha256_final' (sha256_impl.c:196) automatically.
+INFO: [XFORM 203-602] Inlining function 'update_br_key' into 'sha256' (sha256.c:23) automatically.
+Command         transform done; 0.228 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.2.prechk.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 175.078 ; gain = 84.273
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.g.1.bc to H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp H:/ASSHU/branch/branch_project/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -function-inline -complex-op-raise -inst-simplify -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.1.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'sha256_final' (sha256_impl.c:162).
+WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'Loop-2' (sha256_impl.c:179) because its parent loop or function is pipelined.
+WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-4' (sha256_impl.c:209) because its parent loop or function is pipelined.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'sha256_transform' (sha256_impl.c:76).
+WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-2' (sha256_impl.c:84) because its parent loop or function is pipelined.
+WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-3' (sha256_impl.c:97) because its parent loop or function is pipelined.
+WARNING: [XFORM 203-561] Updating loop upper bound from 100 to 63 for loop 'Loop-0-1' (sha256.c:50:1) in function 'sha256'.
+WARNING: [XFORM 203-561] Updating loop upper bound from 40 to 32 for loop 'Loop-1' (sha256.c:61:1) in function 'sha256'.
+WARNING: [XFORM 203-561] Updating loop lower bound from 12 to 32 for loop 'Loop-1' (sha256.c:61:1) in function 'sha256'.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1' (sha256_impl.c:174) in function 'sha256_final' completely: variable loop bound.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (sha256_impl.c:179) in function 'sha256_final' completely with a factor of 56.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-3' (sha256_impl.c:188) in function 'sha256_final' completely: variable loop bound.
+INFO: [HLS 200-489] Unrolling loop 'Loop-4' (sha256_impl.c:209) in function 'sha256_final' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (sha256_impl.c:80) in function 'sha256_transform' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (sha256_impl.c:84) in function 'sha256_transform' completely with a factor of 48.
+INFO: [HLS 200-489] Unrolling loop 'Loop-3' (sha256_impl.c:97) in function 'sha256_transform' completely with a factor of 64.
+INFO: [XFORM 203-102] Partitioning array 'm' (sha256_impl.c:78) automatically.
+INFO: [XFORM 203-102] Partitioning array 'sha256ctx.bitlen' (sha256.c:32) automatically.
+INFO: [XFORM 203-102] Partitioning array 'sha256ctx.state' (sha256.c:32) automatically.
+INFO: [XFORM 203-101] Partitioning array 'sha256ctx.data' (sha256.c:32) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'SIG1' (sha256_impl.c:73) automatically.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'SIG0' (sha256_impl.c:69) automatically.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'EP1' (sha256_impl.c:65) automatically.
+INFO: [XFORM 203-602] Inlining function 'ROTRIGHT' into 'EP0' (sha256_impl.c:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'update_br_key' into 'sha256' (sha256.c:23) automatically.
+Command         transform done; 1.59 sec.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.1.tmp.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-11] Balancing expressions in function 'sha256_transform' (sha256_impl.c:76)...601 expression(s) balanced.
+Command         transform done; 1.555 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 175.078 ; gain = 84.273
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -ptrLegalization -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.2.bc -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Command         transform done; 3.242 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 241.582 ; gain = 150.777
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 8.039 sec.
+Command     elaborate done; 22.884 sec.
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'sha256' ...
+Execute       ap_set_top_model sha256 
+Execute       get_model_list sha256 -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model sha256 
+Command       preproc_iomode done; 0.101 sec.
+Execute       preproc_iomode -model sha256_final 
+Execute       preproc_iomode -model sha256_update 
+Execute       preproc_iomode -model sha256_transform 
+Execute       preproc_iomode -model MAJ 
+Execute       preproc_iomode -model EP0 
+Execute       preproc_iomode -model CH 
+Execute       preproc_iomode -model EP1 
+Execute       preproc_iomode -model SIG0 
+Execute       preproc_iomode -model SIG1 
+Execute       get_model_list sha256 -filter all-wo-channel 
+INFO-FLOW: Model list for configure: SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256
+INFO-FLOW: Configuring Module : SIG1 ...
+Execute       set_default_model SIG1 
+Execute       apply_spec_resource_limit SIG1 
+INFO-FLOW: Configuring Module : SIG0 ...
+Execute       set_default_model SIG0 
+Execute       apply_spec_resource_limit SIG0 
+INFO-FLOW: Configuring Module : EP1 ...
+Execute       set_default_model EP1 
+Execute       apply_spec_resource_limit EP1 
+INFO-FLOW: Configuring Module : CH ...
+Execute       set_default_model CH 
+Execute       apply_spec_resource_limit CH 
+INFO-FLOW: Configuring Module : EP0 ...
+Execute       set_default_model EP0 
+Execute       apply_spec_resource_limit EP0 
+INFO-FLOW: Configuring Module : MAJ ...
+Execute       set_default_model MAJ 
+Execute       apply_spec_resource_limit MAJ 
+INFO-FLOW: Configuring Module : sha256_transform ...
+Execute       set_default_model sha256_transform 
+Execute       apply_spec_resource_limit sha256_transform 
+INFO-FLOW: Configuring Module : sha256_update ...
+Execute       set_default_model sha256_update 
+Execute       apply_spec_resource_limit sha256_update 
+INFO-FLOW: Configuring Module : sha256_final ...
+Execute       set_default_model sha256_final 
+Execute       apply_spec_resource_limit sha256_final 
+INFO-FLOW: Configuring Module : sha256 ...
+Execute       set_default_model sha256 
+Execute       apply_spec_resource_limit sha256 
+INFO-FLOW: Model list for preprocess: SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256
+INFO-FLOW: Preprocessing Module: SIG1 ...
+Execute       set_default_model SIG1 
+Execute       cdfg_preprocess -model SIG1 
+Execute       rtl_gen_preprocess SIG1 
+INFO-FLOW: Preprocessing Module: SIG0 ...
+Execute       set_default_model SIG0 
+Execute       cdfg_preprocess -model SIG0 
+Execute       rtl_gen_preprocess SIG0 
+INFO-FLOW: Preprocessing Module: EP1 ...
+Execute       set_default_model EP1 
+Execute       cdfg_preprocess -model EP1 
+Execute       rtl_gen_preprocess EP1 
+INFO-FLOW: Preprocessing Module: CH ...
+Execute       set_default_model CH 
+Execute       cdfg_preprocess -model CH 
+Execute       rtl_gen_preprocess CH 
+INFO-FLOW: Preprocessing Module: EP0 ...
+Execute       set_default_model EP0 
+Execute       cdfg_preprocess -model EP0 
+Execute       rtl_gen_preprocess EP0 
+INFO-FLOW: Preprocessing Module: MAJ ...
+Execute       set_default_model MAJ 
+Execute       cdfg_preprocess -model MAJ 
+Execute       rtl_gen_preprocess MAJ 
+INFO-FLOW: Preprocessing Module: sha256_transform ...
+Execute       set_default_model sha256_transform 
+Execute       cdfg_preprocess -model sha256_transform 
+Execute       rtl_gen_preprocess sha256_transform 
+INFO-FLOW: Preprocessing Module: sha256_update ...
+Execute       set_default_model sha256_update 
+Execute       cdfg_preprocess -model sha256_update 
+Execute       rtl_gen_preprocess sha256_update 
+INFO-FLOW: Preprocessing Module: sha256_final ...
+Execute       set_default_model sha256_final 
+Execute       cdfg_preprocess -model sha256_final 
+Execute       rtl_gen_preprocess sha256_final 
+INFO-FLOW: Preprocessing Module: sha256 ...
+Execute       set_default_model sha256 
+Execute       cdfg_preprocess -model sha256 
+Execute       rtl_gen_preprocess sha256 
+WARNING: [SYN 201-107] Renaming port name 'sha256/br_key' to 'sha256/br_key_r' to avoid the conflict with HDL keywords or other object names.
+INFO-FLOW: Model list for synthesis: SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'SIG1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model SIG1 
+Execute       schedule -model SIG1 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'SIG1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.196 sec.
+INFO: [HLS 200-111]  Elapsed time: 24.298 seconds; current allocated memory: 191.271 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.sched.adb -f 
+INFO-FLOW: Finish scheduling SIG1.
+Execute       set_default_model SIG1 
+Execute       bind -model SIG1 
+BIND OPTION: model=SIG1
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.111 seconds; current allocated memory: 191.336 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.verbose.bind.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.bind.adb -f 
+INFO-FLOW: Finish binding SIG1.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'SIG0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model SIG0 
+Execute       schedule -model SIG0 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'SIG0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.084 seconds; current allocated memory: 191.385 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.sched.adb -f 
+INFO-FLOW: Finish scheduling SIG0.
+Execute       set_default_model SIG0 
+Execute       bind -model SIG0 
+BIND OPTION: model=SIG0
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.048 seconds; current allocated memory: 191.444 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.verbose.bind.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.bind.adb -f 
+INFO-FLOW: Finish binding SIG0.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'EP1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model EP1 
+Execute       schedule -model EP1 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'EP1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 191.479 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.sched.adb -f 
+INFO-FLOW: Finish scheduling EP1.
+Execute       set_default_model EP1 
+Execute       bind -model EP1 
+BIND OPTION: model=EP1
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 191.542 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.verbose.bind.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.bind.adb -f 
+INFO-FLOW: Finish binding EP1.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CH' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model CH 
+Execute       schedule -model CH 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'CH'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.067 seconds; current allocated memory: 191.565 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.sched.adb -f 
+INFO-FLOW: Finish scheduling CH.
+Execute       set_default_model CH 
+Execute       bind -model CH 
+BIND OPTION: model=CH
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.054 seconds; current allocated memory: 191.609 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.verbose.bind.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.bind.adb -f 
+INFO-FLOW: Finish binding CH.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'EP0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model EP0 
+Execute       schedule -model EP0 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'EP0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.064 seconds; current allocated memory: 191.660 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.sched.adb -f 
+INFO-FLOW: Finish scheduling EP0.
+Execute       set_default_model EP0 
+Execute       bind -model EP0 
+BIND OPTION: model=EP0
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.052 seconds; current allocated memory: 191.723 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.verbose.bind.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.bind.adb -f 
+INFO-FLOW: Finish binding EP0.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MAJ' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model MAJ 
+Execute       schedule -model MAJ 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'MAJ'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.066 seconds; current allocated memory: 191.745 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.sched.adb -f 
+INFO-FLOW: Finish scheduling MAJ.
+Execute       set_default_model MAJ 
+Execute       bind -model MAJ 
+BIND OPTION: model=MAJ
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.051 seconds; current allocated memory: 191.789 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.verbose.bind.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.bind.adb -f 
+INFO-FLOW: Finish binding MAJ.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sha256_transform' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model sha256_transform 
+Execute       schedule -model sha256_transform 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'sha256_transform'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('data_0_load_2', sha256_impl.c:82) on array 'data_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'data_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 8, Depth = 99.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 3.819 sec.
+INFO: [HLS 200-111]  Elapsed time: 3.862 seconds; current allocated memory: 194.340 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.verbose.sched.rpt 
+Command       syn_report done; 0.237 sec.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.sched.adb -f 
+Command       db_write done; 0.195 sec.
+INFO-FLOW: Finish scheduling sha256_transform.
+Execute       set_default_model sha256_transform 
+Execute       bind -model sha256_transform 
+BIND OPTION: model=sha256_transform
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.45 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.906 seconds; current allocated memory: 197.856 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.verbose.bind.rpt 
+Command       syn_report done; 0.525 sec.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.bind.adb -f 
+Command       db_write done; 0.2 sec.
+INFO-FLOW: Finish binding sha256_transform.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sha256_update' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model sha256_update 
+Execute       schedule -model sha256_update 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.792 seconds; current allocated memory: 198.520 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.verbose.sched.rpt 
+INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.sched.adb -f 
+INFO-FLOW: Finish scheduling sha256_update.
+Execute       set_default_model sha256_update 
+Execute       bind -model sha256_update 
+BIND OPTION: model=sha256_update
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.177 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.276 seconds; current allocated memory: 199.357 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.verbose.bind.rpt 
+Command       syn_report done; 0.342 sec.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.bind.adb -f 
+INFO-FLOW: Finish binding sha256_update.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sha256_final' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model sha256_final 
+Execute       schedule -model sha256_final 
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Function contains subloop(s) not being unrolled.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.133 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.55 seconds; current allocated memory: 200.651 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.verbose.sched.rpt 
+Command       syn_report done; 0.109 sec.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.sched.adb -f 
+INFO-FLOW: Finish scheduling sha256_final.
+Execute       set_default_model sha256_final 
+Execute       bind -model sha256_final 
+BIND OPTION: model=sha256_final
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.267 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.474 seconds; current allocated memory: 202.994 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.verbose.bind.rpt 
+Command       syn_report done; 0.402 sec.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.bind.adb -f 
+INFO-FLOW: Finish binding sha256_final.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sha256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model sha256 
+Execute       schedule -model sha256 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.577 seconds; current allocated memory: 203.600 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.verbose.sched.rpt 
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.sched.adb -f 
+INFO-FLOW: Finish scheduling sha256.
+Execute       set_default_model sha256 
+Execute       bind -model sha256 
+BIND OPTION: model=sha256
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 1.018 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.097 seconds; current allocated memory: 204.512 MB.
+Execute       syn_report -verbosereport -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.verbose.bind.rpt 
+Command       syn_report done; 1.024 sec.
+Execute       db_write -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.bind.adb -f 
+INFO-FLOW: Finish binding sha256.
+Execute       get_model_list sha256 -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess SIG1 
+Execute       rtl_gen_preprocess SIG0 
+Execute       rtl_gen_preprocess EP1 
+Execute       rtl_gen_preprocess CH 
+Execute       rtl_gen_preprocess EP0 
+Execute       rtl_gen_preprocess MAJ 
+Execute       rtl_gen_preprocess sha256_transform 
+Execute       rtl_gen_preprocess sha256_update 
+Execute       rtl_gen_preprocess sha256_final 
+Execute       rtl_gen_preprocess sha256 
+INFO-FLOW: Model list for RTL generation: SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'SIG1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model SIG1 -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'SIG1'.
+INFO: [HLS 200-111]  Elapsed time: 1.175 seconds; current allocated memory: 205.111 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl SIG1 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/SIG1 -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl SIG1 -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/SIG1 
+Execute       gen_rtl SIG1 -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/SIG1 
+Execute       syn_report -csynth -model SIG1 -o H:/ASSHU/branch/branch_project/solution1/syn/report/SIG1_csynth.rpt 
+Execute       syn_report -rtlxml -model SIG1 -o H:/ASSHU/branch/branch_project/solution1/syn/report/SIG1_csynth.xml 
+Execute       syn_report -verbosereport -model SIG1 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.verbose.rpt 
+Execute       db_write -model SIG1 -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.adb 
+Execute       gen_tb_info SIG1 -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'SIG0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model SIG0 -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'SIG0'.
+INFO: [HLS 200-111]  Elapsed time: 0.083 seconds; current allocated memory: 205.311 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl SIG0 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/SIG0 -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl SIG0 -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/SIG0 
+Execute       gen_rtl SIG0 -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/SIG0 
+Execute       syn_report -csynth -model SIG0 -o H:/ASSHU/branch/branch_project/solution1/syn/report/SIG0_csynth.rpt 
+Execute       syn_report -rtlxml -model SIG0 -o H:/ASSHU/branch/branch_project/solution1/syn/report/SIG0_csynth.xml 
+Execute       syn_report -verbosereport -model SIG0 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.verbose.rpt 
+Execute       db_write -model SIG0 -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.adb 
+Execute       gen_tb_info SIG0 -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'EP1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model EP1 -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'EP1'.
+INFO: [HLS 200-111]  Elapsed time: 0.077 seconds; current allocated memory: 205.436 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl EP1 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/EP1 -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl EP1 -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/EP1 
+Execute       gen_rtl EP1 -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/EP1 
+Execute       syn_report -csynth -model EP1 -o H:/ASSHU/branch/branch_project/solution1/syn/report/EP1_csynth.rpt 
+Execute       syn_report -rtlxml -model EP1 -o H:/ASSHU/branch/branch_project/solution1/syn/report/EP1_csynth.xml 
+Execute       syn_report -verbosereport -model EP1 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.verbose.rpt 
+Execute       db_write -model EP1 -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.adb 
+Execute       gen_tb_info EP1 -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CH' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model CH -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CH'.
+INFO: [HLS 200-111]  Elapsed time: 0.078 seconds; current allocated memory: 205.515 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl CH -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/CH -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl CH -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/CH 
+Execute       gen_rtl CH -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/CH 
+Execute       syn_report -csynth -model CH -o H:/ASSHU/branch/branch_project/solution1/syn/report/CH_csynth.rpt 
+Execute       syn_report -rtlxml -model CH -o H:/ASSHU/branch/branch_project/solution1/syn/report/CH_csynth.xml 
+Execute       syn_report -verbosereport -model CH -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.verbose.rpt 
+Execute       db_write -model CH -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.adb 
+Execute       gen_tb_info CH -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'EP0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model EP0 -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'EP0'.
+INFO: [HLS 200-111]  Elapsed time: 0.077 seconds; current allocated memory: 205.632 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl EP0 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/EP0 -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl EP0 -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/EP0 
+Execute       gen_rtl EP0 -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/EP0 
+Execute       syn_report -csynth -model EP0 -o H:/ASSHU/branch/branch_project/solution1/syn/report/EP0_csynth.rpt 
+Execute       syn_report -rtlxml -model EP0 -o H:/ASSHU/branch/branch_project/solution1/syn/report/EP0_csynth.xml 
+Execute       syn_report -verbosereport -model EP0 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.verbose.rpt 
+Execute       db_write -model EP0 -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.adb 
+Execute       gen_tb_info EP0 -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MAJ' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model MAJ -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MAJ'.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 205.731 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl MAJ -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/MAJ -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl MAJ -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/MAJ 
+Execute       gen_rtl MAJ -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/MAJ 
+Execute       syn_report -csynth -model MAJ -o H:/ASSHU/branch/branch_project/solution1/syn/report/MAJ_csynth.rpt 
+Execute       syn_report -rtlxml -model MAJ -o H:/ASSHU/branch/branch_project/solution1/syn/report/MAJ_csynth.xml 
+Execute       syn_report -verbosereport -model MAJ -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.verbose.rpt 
+Execute       db_write -model MAJ -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.adb 
+Execute       gen_tb_info MAJ -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sha256_transform' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model sha256_transform -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_transform'.
+Command       create_rtl_model done; 0.278 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.356 seconds; current allocated memory: 212.163 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl sha256_transform -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/sha256_transform -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl sha256_transform -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/sha256_transform 
+Execute       gen_rtl sha256_transform -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/sha256_transform 
+Execute       syn_report -csynth -model sha256_transform -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_transform_csynth.rpt 
+Command       syn_report done; 0.372 sec.
+Execute       syn_report -rtlxml -model sha256_transform -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_transform_csynth.xml 
+Command       syn_report done; 0.199 sec.
+Execute       syn_report -verbosereport -model sha256_transform -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.verbose.rpt 
+Command       syn_report done; 0.891 sec.
+Execute       db_write -model sha256_transform -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.adb 
+Command       db_write done; 0.597 sec.
+Execute       gen_tb_info sha256_transform -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sha256_update' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model sha256_update -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_update'.
+INFO: [HLS 200-111]  Elapsed time: 2.583 seconds; current allocated memory: 215.552 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl sha256_update -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/sha256_update -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl sha256_update -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/sha256_update 
+Execute       gen_rtl sha256_update -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/sha256_update 
+Execute       syn_report -csynth -model sha256_update -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_update_csynth.rpt 
+Execute       syn_report -rtlxml -model sha256_update -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_update_csynth.xml 
+Execute       syn_report -verbosereport -model sha256_update -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.verbose.rpt 
+Command       syn_report done; 0.543 sec.
+Execute       db_write -model sha256_update -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.adb 
+Command       db_write done; 0.106 sec.
+Execute       gen_tb_info sha256_update -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sha256_final' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model sha256_final -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_final'.
+Command       create_rtl_model done; 0.122 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.914 seconds; current allocated memory: 218.768 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl sha256_final -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/sha256_final -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl sha256_final -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/sha256_final 
+Execute       gen_rtl sha256_final -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/sha256_final 
+Execute       syn_report -csynth -model sha256_final -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_final_csynth.rpt 
+Execute       syn_report -rtlxml -model sha256_final -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_final_csynth.xml 
+Execute       syn_report -verbosereport -model sha256_final -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.verbose.rpt 
+Command       syn_report done; 0.6 sec.
+Execute       db_write -model sha256_final -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.adb 
+Command       db_write done; 0.17 sec.
+Execute       gen_tb_info sha256_final -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sha256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model sha256 -vendor xilinx -mg_file H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256/br_key' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256/data' to 's_axilite & ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256/base_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256/bytes' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256/digest' to 's_axilite & ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sha256' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'br_key_r' is power-on initialization.
+INFO: [RTGEN 206-100] Bundling port 'return', 'data', 'base_offset', 'bytes' and 'digest' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'sha256_sha256ctx_data_0' to 'sha256_sha256ctx_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sha256_sha256ctx_data_1' to 'sha256_sha256ctx_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sha256_sha256ctx_data_2' to 'sha256_sha256ctx_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sha256_sha256ctx_data_3' to 'sha256_sha256ctx_eOg' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256'.
+Command       create_rtl_model done; 0.155 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.147 seconds; current allocated memory: 220.308 MB.
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       gen_rtl sha256 -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o H:/ASSHU/branch/branch_project/solution1/syn/systemc/sha256 -synmodules SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256 
+Execute       gen_rtl sha256 -istop -style xilinx -f -lang vhdl -o H:/ASSHU/branch/branch_project/solution1/syn/vhdl/sha256 
+Execute       gen_rtl sha256 -istop -style xilinx -f -lang vlog -o H:/ASSHU/branch/branch_project/solution1/syn/verilog/sha256 
+Execute       syn_report -csynth -model sha256 -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_csynth.rpt 
+Execute       syn_report -rtlxml -model sha256 -o H:/ASSHU/branch/branch_project/solution1/syn/report/sha256_csynth.xml 
+Execute       syn_report -verbosereport -model sha256 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.verbose.rpt 
+Command       syn_report done; 1.043 sec.
+Execute       db_write -model sha256 -f -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.adb 
+Command       db_write done; 0.131 sec.
+Execute       gen_tb_info sha256 -p H:/ASSHU/branch/branch_project/solution1/.autopilot/db -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256 
+Execute       export_constraint_db -f -tool general -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.constraint.tcl 
+Execute       syn_report -designview -model sha256 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.design.xml 
+Command       syn_report done; 0.464 sec.
+Execute       get_config_rtl -disable_wave_debug 
+Execute       syn_report -wcfg -model sha256 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model sha256 -o H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.protoinst 
+Execute       get_config_debug -directory 
+Execute       sc_get_clocks sha256 
+Execute       get_config_export -vivado_clock 
+Execute       sc_get_portdomain sha256 
+INFO-FLOW: Model list for RTL component generation: SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256
+INFO-FLOW: Handling components in module [SIG1] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.compgen.tcl 
+INFO-FLOW: Handling components in module [SIG0] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.compgen.tcl 
+INFO-FLOW: Handling components in module [EP1] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.compgen.tcl 
+INFO-FLOW: Handling components in module [CH] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.compgen.tcl 
+INFO-FLOW: Handling components in module [EP0] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.compgen.tcl 
+INFO-FLOW: Handling components in module [MAJ] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.compgen.tcl 
+INFO-FLOW: Handling components in module [sha256_transform] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.compgen.tcl 
+INFO-FLOW: Handling components in module [sha256_update] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.compgen.tcl 
+INFO-FLOW: Handling components in module [sha256_final] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.compgen.tcl 
+INFO-FLOW: Handling components in module [sha256] ... 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.tcl 
+INFO-FLOW: Found component sha256_seg_buf.
+INFO-FLOW: Append model sha256_seg_buf
+INFO-FLOW: Found component sha256_sha256ctx_bkb.
+INFO-FLOW: Append model sha256_sha256ctx_bkb
+INFO-FLOW: Found component sha256_AXILiteS_s_axi.
+INFO-FLOW: Append model sha256_AXILiteS_s_axi
+INFO-FLOW: Append model SIG1
+INFO-FLOW: Append model SIG0
+INFO-FLOW: Append model EP1
+INFO-FLOW: Append model CH
+INFO-FLOW: Append model EP0
+INFO-FLOW: Append model MAJ
+INFO-FLOW: Append model sha256_transform
+INFO-FLOW: Append model sha256_update
+INFO-FLOW: Append model sha256_final
+INFO-FLOW: Append model sha256
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: sha256_seg_buf sha256_sha256ctx_bkb sha256_AXILiteS_s_axi SIG1 SIG0 EP1 CH EP0 MAJ sha256_transform sha256_update sha256_final sha256
+INFO-FLOW: To file: write model sha256_seg_buf
+INFO-FLOW: To file: write model sha256_sha256ctx_bkb
+INFO-FLOW: To file: write model sha256_AXILiteS_s_axi
+INFO-FLOW: To file: write model SIG1
+INFO-FLOW: To file: write model SIG0
+INFO-FLOW: To file: write model EP1
+INFO-FLOW: To file: write model CH
+INFO-FLOW: To file: write model EP0
+INFO-FLOW: To file: write model MAJ
+INFO-FLOW: To file: write model sha256_transform
+INFO-FLOW: To file: write model sha256_update
+INFO-FLOW: To file: write model sha256_final
+INFO-FLOW: To file: write model sha256
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:CMD: auto_generate_csynth_design
+INFO-FLOW: DBG:CMD:     auto_generate --sim-model -phase csynth_design -d H:/ASSHU/branch/branch_project/solution1
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/interface.gen 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.197 sec.
+Command       ap_source done; 0.198 sec.
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=1 export=0 expOnly=0 dstVlogDir=syn/verilog
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.tcl 
+INFO: [RTMG 210-278] Implementing memory 'sha256_seg_buf_ram (RAM)' using block RAMs.
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+INFO: [RTMG 210-278] Implementing memory 'sha256_sha256ctx_bkb_ram (RAM)' using block RAMs.
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         source ./AXILiteS.slave.tcl 
+Execute         is_m_axi_addr64 
+INFO-FLOW: DBG:CMD:     auto_generate -export -impltomg_flag -rtl both -tool Vivado -pcore_version 1.00.a -phase csynth_design -d H:/ASSHU/branch/branch_project/solution1
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/generic/autopilot/interface.gen 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.gen 
+Execute           source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.104 sec.
+Command       ap_source done; 0.104 sec.
+Execute       source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=sha256 xml_exists=0
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       export_impl_rtl
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.verilog
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=1 expOnly=1 dstVlogDir=impl/.pcores/verilog
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.tcl 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.pcores/verilog_sim
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.compgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.tcl 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.constraint.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       hasPcoreIpAdapter=false #gSsdmPorts=2
+INFO-FLOW: DBG:CMD: Skipping loadAnalyze_DB, #g_database=5
+INFO-FLOW: DBG:CMD:       generate_json is_phase_csynth=1 g_has_adaptors=false generate_bd_files=0 #modelList=13 #gSsdmPorts=2
+Execute       source C:/Xilinx/Vivado/2019.1/tps/tcl/tcllib1.11.1/fileutil/fileutil.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_export -xo 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.dataonly.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.dataonly.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_sdx -target 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.rtl_wrap.cfg.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.compgen.dataonly.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.constraint.tcl 
+Execute       sc_get_clocks sha256 
+Execute       ap_part_info -name xc7z020-clg484-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info -quiet 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_debug -directory 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG1.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/SIG0.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP1.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/CH.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/EP0.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/MAJ.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_transform.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_update.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256_final.tbgen.tcl 
+Execute       source H:/ASSHU/branch/branch_project/solution1/.autopilot/db/sha256.tbgen.tcl 
+Execute       get_config_sdx -target 
+Execute       get_config_sdx -profile 
+Execute       get_config_rtl -kernel_profile 
+Execute       get_config_rtl -stall_sig_gen 
+Execute       get_config_rtl -profile 
+INFO-FLOW: DBG:CMD: add_json_sdx_info kernel file does not exist, skipping opencl info: H:/ASSHU/branch/branch_project/solution1/.autopilot/db/kernel.internal.xml
+INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:23 ; elapsed = 00:00:44 . Memory (MB): peak = 313.906 ; gain = 223.102
+INFO: [VHDL 208-304] Generating VHDL RTL for sha256.
+INFO: [VLOG 209-307] Generating Verilog RTL for sha256.
+Command     autosyn done; 19.607 sec.
+Command   csynth_design done; 42.499 sec.
+Command ap_source done; 43.205 sec.
+Execute cleanup_all 

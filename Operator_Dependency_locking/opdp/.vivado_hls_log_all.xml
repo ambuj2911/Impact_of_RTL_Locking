@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dp_key_r' is power-on initialization." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:39.710+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'rtl_key_r' is power-on initialization." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:39.704+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Function contains subloop(s) not being unrolled." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:27.022+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('data_0_load_2', sha256_impl.c:252) on array 'data_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'data_0'." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:22.668+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'sha256/dp_key' to 'sha256/dp_key_r' to avoid the conflict with HDL keywords or other object names." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:12.084+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'sha256/rtl_key' to 'sha256/rtl_key_r' to avoid the conflict with HDL keywords or other object names." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:12.078+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-3' (sha256_impl.c:378) in function 'sha256_final' completely: variable loop bound." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.441+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1' (sha256_impl.c:364) in function 'sha256_final' completely: variable loop bound." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.431+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 12 to 32 for loop 'Loop-1' (sha256.c:60:1) in function 'sha256'." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.425+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 40 to 32 for loop 'Loop-1' (sha256.c:60:1) in function 'sha256'." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.416+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 100 to 63 for loop 'Loop-0-1' (sha256.c:49:1) in function 'sha256'." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.410+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-3' (sha256_impl.c:267) because its parent loop or function is pipelined." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.405+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-2' (sha256_impl.c:254) because its parent loop or function is pipelined." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.400+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-4' (sha256_impl.c:399) because its parent loop or function is pipelined." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.393+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'Loop-2' (sha256_impl.c:369) because its parent loop or function is pipelined." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:08.387+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] In file included from sha256_impl.c:1:&#xD;&#xA;sha256_impl.c:342:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]&#xD;&#xA;      if ((ctx->datalen == 64)) {&#xD;&#xA;           ~~~~~~~~~~~~~^~~~~&#xD;&#xA;sha256_impl.c:342:25: note: remove extraneous parentheses around the comparison to silence this warning&#xD;&#xA;      if ((ctx->datalen == 64)) {&#xD;&#xA;          ~             ^    ~&#xD;&#xA;sha256_impl.c:342:25: note: use '=' to turn this equality comparison into an assignment&#xD;&#xA;      if ((ctx->datalen == 64)) {&#xD;&#xA;                        ^~&#xD;&#xA;                        =&#xD;&#xA;1 warning generated." projectName="opdp" solutionName="solution1" date="2021-04-10T18:02:03.704+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

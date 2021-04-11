@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dp_key_r' is power-on initialization." projectName="All_project" solutionName="solution1" date="2021-04-11T14:32:28.515+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'br_key_r' is power-on initialization." projectName="All_project" solutionName="solution1" date="2021-04-11T14:32:28.499+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'rtl_key_r' is power-on initialization." projectName="All_project" solutionName="solution1" date="2021-04-11T14:32:28.499+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Function contains subloop(s) not being unrolled." projectName="All_project" solutionName="solution1" date="2021-04-11T14:32:15.042+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('data_0_load_2', sha256_impl.c:255) on array 'data_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'data_0'." projectName="All_project" solutionName="solution1" date="2021-04-11T14:32:10.564+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'sha256/dp_key' to 'sha256/dp_key_r' to avoid the conflict with HDL keywords or other object names." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:59.585+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'sha256/br_key' to 'sha256/br_key_r' to avoid the conflict with HDL keywords or other object names." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:59.569+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'sha256/rtl_key' to 'sha256/rtl_key_r' to avoid the conflict with HDL keywords or other object names." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:59.559+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-3' (sha256_impl.c:388) in function 'sha256_final' completely: variable loop bound." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.604+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1' (sha256_impl.c:374) in function 'sha256_final' completely: variable loop bound." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.604+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 12 to 32 for loop 'Loop-1' (sha256.c:61:1) in function 'sha256'." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.588+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 40 to 32 for loop 'Loop-1' (sha256.c:61:1) in function 'sha256'." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.566+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 100 to 63 for loop 'Loop-0-1' (sha256.c:50:1) in function 'sha256'." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.566+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-3' (sha256_impl.c:270) because its parent loop or function is pipelined." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.550+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-2' (sha256_impl.c:257) because its parent loop or function is pipelined." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.535+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-4' (sha256_impl.c:409) because its parent loop or function is pipelined." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.535+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'Loop-2' (sha256_impl.c:379) because its parent loop or function is pipelined." projectName="All_project" solutionName="solution1" date="2021-04-11T14:31:55.519+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

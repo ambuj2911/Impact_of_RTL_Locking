@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sha256.c" path="E:\VLSI\BRDP\sha256.c"/>
+    <originFiles name="sha256_impl.c" path="E:\VLSI\BRDP\sha256_impl.c"/>
+    <originFiles name="sha256_impl_tb.c" path="E:\VLSI\BRDP\sha256_impl_tb.c"/>
+  </source>
+  <testbench>
+    <originFiles name="sha256_tb.c" path="E:\VLSI\BRDP\sha256_tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

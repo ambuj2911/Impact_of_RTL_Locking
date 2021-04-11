@@ -1,0 +1,128 @@
+
+
+================================================================
+== Vivado HLS Report for 'MAJ'
+================================================================
+* Date:           Sat Apr 10 17:13:31 2021
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        operation_project
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     1.691|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |    0|    0|    1|    1| function |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.69>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%z_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %z) nounwind" [sha256_impl.c:130]   --->   Operation 2 'read' 'z_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%y_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %y) nounwind" [sha256_impl.c:130]   --->   Operation 3 'read' 'y_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%x_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %x) nounwind" [sha256_impl.c:130]   --->   Operation 4 'read' 'x_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%rtl_key_load = load i32* @rtl_key_r, align 4" [sha256_impl.c:132]   --->   Operation 5 'load' 'rtl_key_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns) (grouped into LUT with out node select_ln134)   --->   "%tmp = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %rtl_key_load, i32 4)" [sha256_impl.c:134]   --->   Operation 6 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns) (grouped into LUT with out node xor_ln136_1)   --->   "%xor_ln136 = xor i32 %z_read, %y_read" [sha256_impl.c:136]   --->   Operation 7 'xor' 'xor_ln136' <Predicate = (!tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 8 [1/1] (0.00ns) (grouped into LUT with out node xor_ln136_1)   --->   "%and_ln136 = and i32 %xor_ln136, %x_read" [sha256_impl.c:136]   --->   Operation 8 'and' 'and_ln136' <Predicate = (!tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 9 [1/1] (0.00ns) (grouped into LUT with out node xor_ln136_1)   --->   "%and_ln136_1 = and i32 %z_read, %y_read" [sha256_impl.c:136]   --->   Operation 9 'and' 'and_ln136_1' <Predicate = (!tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln136_1 = xor i32 %and_ln136, %and_ln136_1" [sha256_impl.c:136]   --->   Operation 10 'xor' 'xor_ln136_1' <Predicate = (!tmp)> <Delay = 0.99> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 11 [1/1] (0.00ns) (grouped into LUT with out node xor_ln142_2)   --->   "%and_ln142 = and i32 %y_read, %x_read" [sha256_impl.c:142]   --->   Operation 11 'and' 'and_ln142' <Predicate = (tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns) (grouped into LUT with out node xor_ln142_2)   --->   "%or_ln142 = or i32 %z_read, %x_read" [sha256_impl.c:142]   --->   Operation 12 'or' 'or_ln142' <Predicate = (tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (0.00ns) (grouped into LUT with out node xor_ln142_2)   --->   "%or_ln142_1 = or i32 %z_read, %y_read" [sha256_impl.c:142]   --->   Operation 13 'or' 'or_ln142_1' <Predicate = (tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (0.00ns) (grouped into LUT with out node xor_ln142_2)   --->   "%xor_ln142 = xor i32 %and_ln142, %or_ln142" [sha256_impl.c:142]   --->   Operation 14 'xor' 'xor_ln142' <Predicate = (tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (0.00ns) (grouped into LUT with out node xor_ln142_2)   --->   "%xor_ln142_1 = xor i32 %or_ln142_1, -1" [sha256_impl.c:142]   --->   Operation 15 'xor' 'xor_ln142_1' <Predicate = (tmp)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln142_2 = xor i32 %xor_ln142, %xor_ln142_1" [sha256_impl.c:142]   --->   Operation 16 'xor' 'xor_ln142_2' <Predicate = (tmp)> <Delay = 0.99> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [1/1] (0.69ns) (out node of the LUT)   --->   "%select_ln134 = select i1 %tmp, i32 %xor_ln142_2, i32 %xor_ln136_1" [sha256_impl.c:134]   --->   Operation 17 'select' 'select_ln134' <Predicate = true> <Delay = 0.69> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "ret i32 %select_ln134" [sha256_impl.c:149]   --->   Operation 18 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.69ns
+The critical path consists of the following:
+	wire read on port 'z' (sha256_impl.c:130) [5]  (0 ns)
+	'and' operation ('and_ln136_1', sha256_impl.c:136) [12]  (0 ns)
+	'xor' operation ('xor_ln136_1', sha256_impl.c:136) [13]  (0.993 ns)
+	'select' operation ('select_ln134', sha256_impl.c:134) [20]  (0.698 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

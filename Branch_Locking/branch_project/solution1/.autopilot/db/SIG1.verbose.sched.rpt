@@ -1,0 +1,121 @@
+
+
+================================================================
+== Vivado HLS Report for 'SIG1'
+================================================================
+* Date:           Sat Apr 10 16:51:04 2021
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        branch_project
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     0.993|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |    0|    0|    1|    1| function |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.99>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%x_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %x) nounwind" [sha256_impl.c:72]   --->   Operation 2 'read' 'x_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%lshr_ln = call i15 @_ssdm_op_PartSelect.i15.i32.i32.i32(i32 %x_read, i32 17, i32 31)" [sha256_impl.c:49->sha256_impl.c:73]   --->   Operation 3 'partselect' 'lshr_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%trunc_ln49 = trunc i32 %x_read to i17" [sha256_impl.c:49->sha256_impl.c:73]   --->   Operation 4 'trunc' 'trunc_ln49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%or_ln = call i32 @_ssdm_op_BitConcatenate.i32.i17.i15(i17 %trunc_ln49, i15 %lshr_ln)" [sha256_impl.c:49->sha256_impl.c:73]   --->   Operation 5 'bitconcatenate' 'or_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%lshr_ln49_1 = call i13 @_ssdm_op_PartSelect.i13.i32.i32.i32(i32 %x_read, i32 19, i32 31)" [sha256_impl.c:49->sha256_impl.c:73]   --->   Operation 6 'partselect' 'lshr_ln49_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%trunc_ln49_1 = trunc i32 %x_read to i19" [sha256_impl.c:49->sha256_impl.c:73]   --->   Operation 7 'trunc' 'trunc_ln49_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%or_ln49_1 = call i32 @_ssdm_op_BitConcatenate.i32.i19.i13(i19 %trunc_ln49_1, i13 %lshr_ln49_1)" [sha256_impl.c:49->sha256_impl.c:73]   --->   Operation 8 'bitconcatenate' 'or_ln49_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%lshr_ln4 = call i22 @_ssdm_op_PartSelect.i22.i32.i32.i32(i32 %x_read, i32 10, i32 31)" [sha256_impl.c:73]   --->   Operation 9 'partselect' 'lshr_ln4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%zext_ln73 = zext i22 %lshr_ln4 to i32" [sha256_impl.c:73]   --->   Operation 10 'zext' 'zext_ln73' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns) (grouped into LUT with out node xor_ln73_1)   --->   "%xor_ln73 = xor i32 %zext_ln73, %or_ln49_1" [sha256_impl.c:73]   --->   Operation 11 'xor' 'xor_ln73' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.99ns) (out node of the LUT)   --->   "%xor_ln73_1 = xor i32 %xor_ln73, %or_ln" [sha256_impl.c:73]   --->   Operation 12 'xor' 'xor_ln73_1' <Predicate = true> <Delay = 0.99> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "ret i32 %xor_ln73_1" [sha256_impl.c:73]   --->   Operation 13 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.993ns
+The critical path consists of the following:
+	wire read on port 'x' (sha256_impl.c:72) [2]  (0 ns)
+	'xor' operation ('xor_ln73_1', sha256_impl.c:73) [12]  (0.993 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

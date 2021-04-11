@@ -1,0 +1,106 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../sha256_tb.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Samiksha Agrawal' on host 'desktop-cjal4kv' (Windows NT_amd64 version 6.2) on Sat Apr 10 18:01:34 +0530 2021
+INFO: [HLS 200-10] In directory 'E:/VLSI/OPDP/opdp/solution1/csim/build'
+../../../../sha256_tb.c:67:15: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if( strncmp(digest, sw_hash, 32) ) {
+                            ^~~~~~
+C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\string.h:75:35: note: passing argument to parameter '_Str1' here
+  int __cdecl strncmp(const char *_Str1,const char *_Str2,size_t _MaxCount);
+                                  ^
+../../../../sha256_tb.c:67:23: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if( strncmp(digest, sw_hash, 32) ) {
+                                    ^~~~~~~
+C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\string.h:75:53: note: passing argument to parameter '_Str2' here
+  int __cdecl strncmp(const char *_Str1,const char *_Str2,size_t _MaxCount);
+                                                    ^
+2 warnings generated.
+../../../../sha256_tb.c:67:15: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if( strncmp(digest, sw_hash, 32) ) {
+                            ^~~~~~
+C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\string.h:75:35: note: passing argument to parameter '_Str1' here
+  int __cdecl strncmp(const char *_Str1,const char *_Str2,size_t _MaxCount);
+                                  ^
+../../../../sha256_tb.c:67:23: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if( strncmp(digest, sw_hash, 32) ) {
+                                    ^~~~~~~
+C:/Xilinx/Vivado/2019.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\string.h:75:53: note: passing argument to parameter '_Str2' here
+  int __cdecl strncmp(const char *_Str1,const char *_Str2,size_t _MaxCount);
+                                                    ^
+2 warnings generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../sha256.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Samiksha Agrawal' on host 'desktop-cjal4kv' (Windows NT_amd64 version 6.2) on Sat Apr 10 18:01:38 +0530 2021
+INFO: [HLS 200-10] In directory 'E:/VLSI/OPDP/opdp/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../sha256_impl.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Samiksha Agrawal' on host 'desktop-cjal4kv' (Windows NT_amd64 version 6.2) on Sat Apr 10 18:01:42 +0530 2021
+INFO: [HLS 200-10] In directory 'E:/VLSI/OPDP/opdp/solution1/csim/build'
+../../../../sha256_impl.c:342:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+      if ((ctx->datalen == 64)) {
+           ~~~~~~~~~~~~~^~~~~
+../../../../sha256_impl.c:342:25: note: remove extraneous parentheses around the comparison to silence this warning
+      if ((ctx->datalen == 64)) {
+          ~             ^    ~
+../../../../sha256_impl.c:342:25: note: use '=' to turn this equality comparison into an assignment
+      if ((ctx->datalen == 64)) {
+                        ^~
+                        =
+1 warning generated.
+../../../../sha256_impl.c:342:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+      if ((ctx->datalen == 64)) {
+           ~~~~~~~~~~~~~^~~~~
+../../../../sha256_impl.c:342:25: note: remove extraneous parentheses around the comparison to silence this warning
+      if ((ctx->datalen == 64)) {
+          ~             ^    ~
+../../../../sha256_impl.c:342:25: note: use '=' to turn this equality comparison into an assignment
+      if ((ctx->datalen == 64)) {
+                        ^~
+                        =
+1 warning generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../sha256_impl_tb.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Samiksha Agrawal' on host 'desktop-cjal4kv' (Windows NT_amd64 version 6.2) on Sat Apr 10 18:01:45 +0530 2021
+INFO: [HLS 200-10] In directory 'E:/VLSI/OPDP/opdp/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+101 rtl_key value in main 
+1 dp_key value in main 
+Data to hash: ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUV
+
+Test 0, base: 0 length 0:
+SHA256_SW: E3 B0 C4 42 98 FC 1C 14 9A FB F4 C8 99 6F B9 24 27 AE 41 E4 64 9B 93 4C A4 95 99 1B 78 52 B8 55 
+SHA256_HW: E3 B0 C4 42 98 FC 1C 14 9A FB F4 C8 99 6F B9 24 27 AE 41 E4 64 9B 93 4C A4 95 99 1B 78 52 B8 55 
+PASSED
+
+Test 1, base: 1 length 1:
+SHA256_SW: CC 47 22 3B 1B 04 B0 92 4D 3C 25 AA 28 64 AC 10 8D 42 E3 56 37 5C AB 39 3F 1F 5A B6 34 6C 48 36 
+SHA256_HW: CC 47 22 3B 1B 04 B0 92 4D 3C 25 AA 28 64 AC 10 8D 42 E3 56 37 5C AB 39 3F 1F 5A B6 34 6C 48 36 
+PASSED
+
+Test 2, base: 0 length 64:
+SHA256_SW: AC 2B 91 1B 6B 5C F4 34 E0 AC F7 ED 89 48 3F 41 E8 A2 C7 47 14 96 8F 4E CB 9F 6D 46 66 BE CC D9 
+SHA256_HW: AC 2B 91 1B 6B 5C F4 34 E0 AC F7 ED 89 48 3F 41 E8 A2 C7 47 14 96 8F 4E CB 9F 6D 46 66 BE CC D9 
+PASSED
+
+Test 3, base: 3 length 127:
+SHA256_SW: 00 68 7A C2 16 D9 C9 72 A5 F1 20 F9 04 2D EC AA D3 A1 10 04 40 EC 02 79 A9 CF 82 B0 71 C8 9D 1B 
+SHA256_HW: 00 68 7A C2 16 D9 C9 72 A5 F1 20 F9 04 2D EC AA D3 A1 10 04 40 EC 02 79 A9 CF 82 B0 71 C8 9D 1B 
+PASSED
+
+Test 4, base: 0 length 256:
+SHA256_SW: 5C 7A 2C 9D D3 BD EB 33 EF 31 46 B5 D8 55 5F 29 3F AB 7B B3 A2 46 22 5D 41 31 13 76 63 83 0D 38 
+SHA256_HW: 5C 7A 2C 9D D3 BD EB 33 EF 31 46 B5 D8 55 5F 29 3F AB 7B B3 A2 46 22 5D 41 31 13 76 63 83 0D 38 
+PASSED
+
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
